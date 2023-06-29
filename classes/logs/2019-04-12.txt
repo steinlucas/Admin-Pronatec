@@ -1,0 +1,90 @@
+Time : 02:03:25
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select  
+			u.*	, pu.* 
+			from 
+				usuario u 
+				inner join perfil_usuario pu 
+				on (u.cd_perfil = pu.cd_perfil) 
+			where 
+				u.ds_email = :emailF 
+				and ds_senha = :senhaF 
+				and fg_ativo = 1
+
+Time : 01:44:22
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select  
+			u.*	, pu.* 
+			from 
+				usuario u 
+				inner join perfil_usuario pu 
+				on (u.cd_perfil = pu.cd_perfil) 
+			where 
+				u.ds_email = :emailF 
+				and ds_senha = :senhaF 
+				and fg_ativo = 1
+
+Time : 01:44:05
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select  
+			u.*	, pu.* 
+			from 
+				usuario u 
+				inner join perfil_usuario pu 
+				on (u.cd_perfil = pu.cd_perfil) 
+			where 
+				u.ds_email = :emailF 
+				and ds_senha = :senhaF 
+				and fg_ativo = 1
+
+Time : 01:43:55
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select  
+			u.*	, pu.* 
+			from 
+				usuario u 
+				inner join perfil_usuario pu 
+				on (u.cd_perfil = pu.cd_perfil) 
+			where 
+				u.ds_email = :emailF 
+				and ds_senha = :senhaF 
+				and fg_ativo = 1
+
+Time : 01:43:32
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select  
+			u.*	, pu.* 
+			from 
+				usuario u 
+				inner join perfil_usuario pu 
+				on (u.cd_perfil = pu.cd_perfil) 
+			where 
+				u.ds_email = :emailF 
+				and ds_senha = :senhaF 
+				and fg_ativo = 1
+
+Time : 01:23:42
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select  
+			u.*	, pu.* 
+			from 
+				usuario u 
+				inner join perfil_usuario pu 
+				on (u.cd_perfil = pu.cd_perfil) 
+			where 
+				u.ds_email = :emailF 
+				and ds_senha = :senhaF 
+				and fg_ativo = 1
+
+Time : 01:23:22
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select  
+			u.*	, pu.* 
+			from 
+				usuario u 
+				inner join perfil_usuario pu 
+				on (u.cd_perfil = pu.cd_perfil) 
+			where 
+				u.ds_email = :emailF 
+				and ds_senha = :senhaF 
+				and fg_ativo = 1

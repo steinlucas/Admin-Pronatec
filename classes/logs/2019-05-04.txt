@@ -1,0 +1,72 @@
+Time : 02:44:32
+SQLSTATE[42000]: Syntax error or access violation: 1065 Query est vide
+
+Time : 02:44:16
+SQLSTATE[42000]: Syntax error or access violation: 1065 Query est vide
+
+Time : 02:08:15
+SQLSTATE[42S22]: Column not found: 1054 Champ 'ds_marca' inconnu dans field list
+Raw SQL : INSERT INTO veiculo  
+				(nr_ano, ds_placa, ds_marca, cd_modelo,   
+				 cd_tipo_veiculo, cd_cor_veiculo)  
+				 VALUES 
+				(:nrAno, :dsPlaca, :dsMarca, :cdModelo,  
+				 :cdTipo, :cdCorVeiculo);
+
+Time : 02:06:48
+SQLSTATE[42S22]: Column not found: 1054 Champ 'nr_ano' inconnu dans field list
+Raw SQL : INSERT INTO usuario  
+				(nr_ano, ds_placa, ds_marca, cd_modelo,   
+				 cd_tipo_veiculo, cd_cor_veiculo)  
+				 VALUES  
+				(:nrAno, :dsPlaca, :dsMarca, :cdModelo,  
+				 :cdTipo, :cdCorVeiculo);
+
+Time : 02:04:20
+SQLSTATE[42S22]: Column not found: 1054 Champ 'nr_ano' inconnu dans field list
+Raw SQL : INSERT INTO usuario  
+				(nr_ano, ds_placa, ds_marca, cd_modelo ,   
+				 cd_tipo_veiculo, cd_cor_veiculo)  
+				 VALUES  
+				 (:nrAno, :nrPlaca, :nmMarca, :nmModelo,  
+				 :cdTipo, :dsCor);
+
+Time : 02:02:50
+SQLSTATE[42S22]: Column not found: 1054 Champ 'nr_ano' inconnu dans field list
+Raw SQL : INSERT INTO usuario  
+				(nr_ano, ds_placa, ds_marca, cd_modelo ,   
+				 cd_tipo_veiculo, cd_cor_veiculo)  
+				 VALUES  
+				 (:nrAno, :nrPlaca, :nmMarca, :nmModelo,  
+				 :cdTipo, :dsCor);
+
+Time : 02:01:34
+SQLSTATE[42S22]: Column not found: 1054 Champ 'nr_ano' inconnu dans field list
+Raw SQL : INSERT INTO usuario  
+				(nr_ano, ds_placa, ds_marca, cd_modelo ,   
+				 cd_tipo_veiculo, cd_cor_veiculo)  
+				 VALUES  
+				 (:nrAno, :nrPlaca, :nmMarca, :nmModelo,  
+				 :cdTipo, :dsCor);
+
+Time : 02:00:51
+SQLSTATE[42S22]: Column not found: 1054 Champ 'cdTipo' inconnu dans field list
+Raw SQL : INSERT INTO usuario  
+				(nr_ano, ds_placa, ds_marca, cd_modelo ,   
+				 cd_tipo_veiculo, cd_cor_veiculo)  
+				 VALUES  
+				 (:nrAno, :nrPlaca, :nmMarca, :nmModelo,  
+				 cdTipo, :dsCor);
+
+Time : 01:51:45
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select  
+			u.*	, pu.* 
+			from 
+				usuario u 
+				inner join perfil_usuario pu 
+				on (u.cd_perfil = pu.cd_perfil) 
+			where 
+				u.ds_email = :emailF 
+				and ds_senha = :senhaF 
+				and fg_ativo = 1

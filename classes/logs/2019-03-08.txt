@@ -1,0 +1,99 @@
+Time : 01:38:19
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lavacao`.`usuario`, CONSTRAINT `usuario_ibfk_1` FOREIGN KEY (`cd_perfil`) REFERENCES `perfil_usuario` (`cd_perfil`))
+Raw SQL : delete from perfil_usuario 
+							where cd_perfil = :id
+
+Time : 01:28:02
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lavacao`.`usuario`, CONSTRAINT `usuario_ibfk_1` FOREIGN KEY (`cd_perfil`) REFERENCES `perfil_usuario` (`cd_perfil`))
+Raw SQL : delete from perfil_usuario 
+							where cd_perfil = :id
+
+Time : 01:26:01
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lavacao`.`usuario`, CONSTRAINT `usuario_ibfk_1` FOREIGN KEY (`cd_perfil`) REFERENCES `perfil_usuario` (`cd_perfil`))
+Raw SQL : delete from perfil_usuario 
+							where cd_perfil = :id
+
+Time : 01:17:19
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lavacao`.`usuario`, CONSTRAINT `usuario_ibfk_1` FOREIGN KEY (`cd_perfil`) REFERENCES `perfil_usuario` (`cd_perfil`))
+Raw SQL : delete from perfil_usuario 
+							where cd_perfil = :id
+
+Time : 01:17:16
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lavacao`.`usuario`, CONSTRAINT `usuario_ibfk_1` FOREIGN KEY (`cd_perfil`) REFERENCES `perfil_usuario` (`cd_perfil`))
+Raw SQL : delete from perfil_usuario 
+							where cd_perfil = :id
+
+Time : 01:16:19
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lavacao`.`usuario`, CONSTRAINT `usuario_ibfk_1` FOREIGN KEY (`cd_perfil`) REFERENCES `perfil_usuario` (`cd_perfil`))
+Raw SQL : delete from perfil_usuario 
+							where cd_perfil = :id
+
+Time : 01:16:04
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lavacao`.`usuario`, CONSTRAINT `usuario_ibfk_1` FOREIGN KEY (`cd_perfil`) REFERENCES `perfil_usuario` (`cd_perfil`))
+Raw SQL : delete from perfil_usuario 
+							where cd_perfil = :id
+
+Time : 00:48:41
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select  
+			u.*	, pu.* 
+			from 
+				usuario u 
+				inner join perfil_usuario pu 
+				on (u.cd_perfil = pu.cd_perfil) 
+			where 
+				u.ds_email = :emailF 
+				and ds_senha = :senhaF 
+				and fg_ativo = 1
+
+Time : 00:36:36
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select  
+			u.*	, pu.* 
+			from 
+				usuario u 
+				inner join perfil_usuario pu 
+				on (u.cd_perfil = pu.cd_perfil) 
+			where 
+				u.ds_email = :emailF 
+				and ds_senha = :senhaF 
+				and fg_ativo = 1
+
+Time : 00:30:09
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select  
+			u.*	, pu.* 
+			from 
+				usuario u 
+				inner join perfil_usuario pu 
+				on (u.cd_perfil = pu.cd_perfil) 
+			where 
+				u.ds_email = :emailF 
+				and ds_senha = :senhaF 
+				and fg_ativo = 1
+
+Time : 00:20:56
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select  
+			u.*	, pu.* 
+			from 
+				usuario u 
+				inner join perfil_usuario pu 
+				on (u.cd_perfil = pu.cd_perfil) 
+			where 
+				u.ds_email = :emailF 
+				and ds_senha = :senhaF 
+				and fg_ativo = 1
+
+Time : 00:10:28
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select  
+			u.*	, pu.* 
+			from 
+				usuario u 
+				inner join perfil_usuario pu 
+				on (u.cd_perfil = pu.cd_perfil) 
+			where 
+				u.ds_email = :emailF 
+				and ds_senha = :senhaF 
+				and fg_ativo = 1

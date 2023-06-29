@@ -1,0 +1,97 @@
+Time : 00:46:06
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select * from usuario 
+					where ds_email = :emailF 
+					and ds_senha = :senhaF 
+					and fg_ativo = 1
+
+Time : 00:45:08
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select * from usuario 
+					where ds_email = :emailF 
+					and ds_senha = :senhaF 
+					and fg_ativo = 1
+
+Time : 00:44:23
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select * from usuario 
+					where ds_email = :emailF 
+					and ds_senha = :senhaF 
+					and fg_ativo = 1
+
+Time : 00:44:15
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select * from usuario 
+					where ds_email = :emailF 
+					and ds_senha = :senhaF 
+					and fg_ativo = 1
+
+Time : 00:43:51
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select * from usuario 
+					where ds_email = :emailF 
+					and ds_senha = :senhaF 
+					and fg_ativo = 1
+
+Time : 00:42:38
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select * from usuario 
+					where ds_email = :emailF 
+					and ds_senha = :senhaF 
+					and fg_ativo = 1
+
+Time : 00:42:27
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select * from usuario 
+					where ds_email = :emailF 
+					and ds_senha = :senhaF 
+					and fg_ativo = 1
+
+Time : 00:42:18
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select * from usuario 
+					where ds_email = :emailF 
+					and ds_senha = :senhaF 
+					and fg_ativo = 1
+
+Time : 00:42:04
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select * from usuario 
+					where ds_email = :emailF 
+					and ds_senha = :senhaF 
+					and fg_ativo = 1
+
+Time : 00:41:44
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select * from usuario 
+					where ds_email = :emailF 
+					and ds_senha = :senhaF 
+					and fg_ativo = 1
+
+Time : 00:41:02
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select * from usuario 
+					where ds_email = :emailF 
+					and ds_senha = :senhaF 
+					and fg_ativo = 1
+
+Time : 00:40:26
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select * from usuario 
+					where ds_email = :emailF 
+					and ds_senha = :senhaF 
+					and fg_ativo = 1
+
+Time : 00:40:17
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select * from usuario 
+					where ds_email = :emailF 
+					and ds_senha = :senhaF 
+					and fg_ativo = 1
+
+Time : 00:39:52
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select * from usuario 
+					where ds_email = :emailF 
+					and ds_senha = :senhaF 
+					and fg_ativo = 1

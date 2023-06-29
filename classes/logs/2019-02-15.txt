@@ -1,0 +1,5 @@
+Time : 23:10:20
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Este host não é conhecido. 
+
+Time : 23:09:16
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Este host não é conhecido. 

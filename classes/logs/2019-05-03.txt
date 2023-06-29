@@ -1,0 +1,84 @@
+Time : 02:05:07
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select  
+			u.*	, pu.* 
+			from 
+				usuario u 
+				inner join perfil_usuario pu 
+				on (u.cd_perfil = pu.cd_perfil) 
+			where 
+				u.ds_email = :emailF 
+				and ds_senha = :senhaF 
+				and fg_ativo = 1
+
+Time : 01:40:09
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select  
+			u.*	, pu.* 
+			from 
+				usuario u 
+				inner join perfil_usuario pu 
+				on (u.cd_perfil = pu.cd_perfil) 
+			where 
+				u.ds_email = :emailF 
+				and ds_senha = :senhaF 
+				and fg_ativo = 1
+
+Time : 01:39:34
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO usuario  
+				(nm_usuario, ds_email, ds_senha, cd_perfil ,   
+				 fg_ativo,	tp_sexo, dt_nascimento, dt_cadastro,  
+				 fg_idoso, fg_vip, fg_nec_especial, ds_nec_especial)  
+				 VALUES  
+				 (:nmUsuario, :dsEmail, :dsSenha, 2,  
+				 1, :tpSexo, :dtNascimento, now(),  
+				 :fgIdoso, :fgVip, :fgNecEspecial, :dsNecEspecial);
+
+Time : 01:36:29
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO usuario(nm_usuario, ds_email, ds_senha, cd_perfil ,  fg_ativo,	tp_sexo, 
+			dt_nascimento, dt_cadastro, fg_vip, ds_nec_especial, fg_nec_especial) VALUES (:nmUsuario, :dsEmail, :dsSenha, 
+			2, 1, :tpSexo, :dtNascimento, :dtCadastro, :fgIdoso, :fgVip, :fgNecEspecial, :dsNecEspecial);
+
+Time : 01:34:58
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO usuario(nm_usuario, ds_email, ds_senha, cd_perfil ,  fg_ativo,	tp_sexo, 
+			dt_nascimento, dt_cadastro, fg_vip, ds_nec_especial, fg_nec_especial) VALUES (:nmUsuario, :dsEmail, :dsSenha, 
+			2, 1, :tpSexo, :dtNascimento, :dtCadastro, :fgIdoso, :fgVip, :dsNecEspecial, :fgNecEspecial);
+
+Time : 01:34:23
+SQLSTATE[42S22]: Column not found: 1054 Champ 'fgVip' inconnu dans field list
+Raw SQL : INSERT INTO usuario(nm_usuario, ds_email, ds_senha, cd_perfil ,  fg_ativo,	tp_sexo, 
+			dt_nascimento, dt_cadastro, fg_vip, ds_nec_especial, fg_nec_especial) VALUES (:nmUsuario, :dsEmail, :dsSenha, 
+			2, 1, :tpSexo, :dtNascimento, :dtCadastro, :fgIdoso, fgVip, :dsNecEspecial, :fgNecEspecial);
+
+Time : 01:31:34
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select  
+			u.*	, pu.* 
+			from 
+				usuario u 
+				inner join perfil_usuario pu 
+				on (u.cd_perfil = pu.cd_perfil) 
+			where 
+				u.ds_email = :emailF 
+				and ds_senha = :senhaF 
+				and fg_ativo = 1
+
+Time : 01:26:28
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO usuario(nm_usuario, ds_email, ds_senha, cd_perfil ,  fg_ativo,	tp_sexo, 
+			dtNascimento, dtCadastro, fgVip, dsNecEspecial, fgNecEspecial) VALUES (:nmUsuario, :dsEmail, :dsSenha, 
+			2, 1, :tp_sexo, :dt_nascimento, :dt_cadastro, :fg_idoso, :fg_vip, :ds_nec_especial, :fg_nec_especial);
+
+Time : 01:24:28
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO usuario(nm_usuario, ds_email, ds_senha, cd_perfil ,  fg_ativo,	tp_sexo, 
+			dtNascimento, dtCadastro, fgVip, dsNecEspecial, fgNecEspecial) VALUES (:nmUsuario, :dsEmail, :dsSenha, 
+			2, 1, :tp_sexo, :dt_nascimento, :dt_cadastro, :fg_idoso, :fg_vip, :ds_nec_especial, :fg_nec_especial);
+
+Time : 00:26:18
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lavacao`.`usuario`, CONSTRAINT `usuario_ibfk_1` FOREIGN KEY (`cd_perfil`) REFERENCES `perfil_usuario` (`cd_perfil`))
+Raw SQL : delete from perfil_usuario  
+							where cd_perfil = :id
